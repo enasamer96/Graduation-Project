@@ -55,16 +55,12 @@ class _therapyCalendarState extends State<therapyCalendar> {
       ),
       body: Column(
         children: [
-          Image(
-            image: AssetImage('images/therapy.jpg'),
-          ),
           SizedBox(
-            height: 30.0,
+            height: 50.0,
           ),
           Text(
-            'Available on Fridays for free sessions ☺',
-            style: TextStyle(fontSize: 15.0, color: Colors.black),
-          ),
+              'Available to provide service every day from four to six o\'clock ☺',
+              style: TextStyle(fontSize: 18.2, color: Colors.black)),
           SizedBox(
             height: 50.0,
           ),

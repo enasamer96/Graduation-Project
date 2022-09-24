@@ -88,7 +88,7 @@ class _therapyAll2State extends State<therapyAll2> {
               ],
             ),
             Image(
-              image: AssetImage('images/therapy.jpg'),
+              image: AssetImage('images/th2.png'),
             ),
             SizedBox(
               height: 150.0,

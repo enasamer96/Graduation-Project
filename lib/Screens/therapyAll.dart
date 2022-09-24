@@ -39,58 +39,54 @@ class _therapyAllState extends State<therapyAll> {
             ),
             Row(
               children: [
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => therapyAll()));
-                      },
-                      child: Image.asset(
-                        ('images/ALL.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => therapyAll()));
+                    },
+                    child: Image.asset(
+                      ('images/ALL.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => therapyUpComing()));
-                      },
-                      child: Image.asset(
-                        ('images/UP.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => therapyUpComing()));
+                    },
+                    child: Image.asset(
+                      ('images/UP.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => therapycancele()));
-                      },
-                      child: Image.asset(
-                        ('images/Cancel.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => therapycancele()));
+                    },
+                    child: Image.asset(
+                      ('images/Cancel.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
               ],
             ),
-            Image(
-              image: AssetImage('images/opps.jpeg'),
+            Center(
+              child: Image(
+                image: AssetImage('images/opps.jpeg'),
+              ),
             ),
             Expanded(
               child: Padding(
@@ -99,7 +95,7 @@ class _therapyAllState extends State<therapyAll> {
                 child: TextButton(
                   onPressed: () {
                     Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => therapyAll2()));
+                        MaterialPageRoute(builder: (context) => therapy()));
                   },
                   child: Container(
                     child: Text('Find me therapists',

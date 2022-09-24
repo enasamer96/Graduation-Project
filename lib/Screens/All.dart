@@ -39,51 +39,45 @@ class _AllState extends State<All> {
             ),
             Row(
               children: [
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (context) => All()));
-                      },
-                      child: Image.asset(
-                        ('images/ALL.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context)
+                          .push(MaterialPageRoute(builder: (context) => All()));
+                    },
+                    child: Image.asset(
+                      ('images/ALL.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => UPcoming()));
-                      },
-                      child: Image.asset(
-                        ('images/UP.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => UPcoming()));
+                    },
+                    child: Image.asset(
+                      ('images/UP.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    // ignore: deprecated_member_use
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (context) => cancele()));
-                      },
-                      child: Image.asset(
-                        ('images/Cancel.jpeg'),
-                        width: 100.0,
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  // ignore: deprecated_member_use
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => cancele()));
+                    },
+                    child: Image.asset(
+                      ('images/Cancel.jpeg'),
+                      width: 100.0,
                     ),
                   ),
                 ),
@@ -92,21 +86,19 @@ class _AllState extends State<All> {
             Image(
               image: AssetImage('images/opps.jpeg'),
             ),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                // ignore: deprecated_member_use
-                child: TextButton(
-                  onPressed: () {
-                    Navigator.of(context)
-                        .push(MaterialPageRoute(builder: (context) => All2()));
-                  },
-                  child: Container(
-                    child: Text('Find me therapists',
-                        style: TextStyle(fontSize: 18.2, color: Colors.red)),
-                    margin: EdgeInsets.only(
-                        left: 90.0, bottom: 0.0, top: 00.0, right: 90),
-                  ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              // ignore: deprecated_member_use
+              child: TextButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Schedule()));
+                },
+                child: Container(
+                  child: Text('Find me therapists',
+                      style: TextStyle(fontSize: 18.2, color: Colors.red)),
+                  margin: EdgeInsets.only(
+                      left: 90.0, bottom: 0.0, top: 00.0, right: 90),
                 ),
               ),
             ),

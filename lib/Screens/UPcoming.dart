@@ -89,10 +89,10 @@ class _UPcomingState extends State<UPcoming> {
               ],
             ),
             Image(
-              image: AssetImage('images/all2.jpeg'),
+              image: AssetImage('images/sy3.png'),
             ),
             SizedBox(
-              height: 150.0,
+              height: 100.0,
             ),
             Expanded(
               child: Padding(

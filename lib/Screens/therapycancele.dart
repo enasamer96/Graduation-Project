@@ -89,7 +89,7 @@ class _therapycanceleState extends State<therapycancele> {
               ],
             ),
             Image(
-              image: AssetImage('images/therapy.jpg'),
+              image: AssetImage('images/th2.png'),
             ),
             SizedBox(
               height: 70.0,

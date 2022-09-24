@@ -88,7 +88,7 @@ class _All2State extends State<All2> {
               ],
             ),
             Image(
-              image: AssetImage('images/all2.jpeg'),
+              image: AssetImage('images/sy3.png'),
             ),
             SizedBox(
               height: 150.0,

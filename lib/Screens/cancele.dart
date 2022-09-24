@@ -90,7 +90,7 @@ class _canceleState extends State<cancele> {
               ],
             ),
             Image(
-              image: AssetImage('images/cancele1.jpeg'),
+              image: AssetImage('images/sy3.png'),
             ),
             SizedBox(
               height: 70.0,

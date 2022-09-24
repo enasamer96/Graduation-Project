@@ -49,7 +49,7 @@ class _page1State extends State<page1> {
               child: Text(
                   'Here in virtue we focus in letting our users get to there brighter side, create your happy self! Explore your self',
                   style: TextStyle(fontSize: 20.2, color: Colors.black)),
-              margin: EdgeInsets.only(left: 8.0, bottom: 170.0, top: 00.0),
+              margin: EdgeInsets.only(left: 8.0, bottom: 150.0, top: 00.0),
             ),
             Row(
               children: [

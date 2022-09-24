@@ -49,9 +49,9 @@ class _page2State extends State<page2> {
             ),
             Container(
               child: Text(
-                  'We request from you to fill an simple form. to start filtering the best option for you! what are you waiting for?',
+                  'It starts with a simple form and based on what you pick you will be placed with Therapists/psychologists to begin your journey',
                   style: TextStyle(fontSize: 20.2, color: Colors.black)),
-              margin: EdgeInsets.only(left: 8.0, bottom: 150.0, top: 00.0),
+              margin: EdgeInsets.only(left: 8.0, bottom: 130.0, top: 00.0),
             ),
             Row(
               children: [

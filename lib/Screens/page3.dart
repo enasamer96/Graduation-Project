@@ -51,7 +51,7 @@ class _page3State extends State<page3> {
               child: Text(
                   'We alwars care for our cutomers secunty. All or the therapy sessions are secured & no data Is shared. you can still stan in as annonymous.',
                   style: TextStyle(fontSize: 20.2, color: Colors.black)),
-              margin: EdgeInsets.only(left: 8.0, bottom: 120.0, top: 00.0),
+              margin: EdgeInsets.only(left: 8.0, bottom: 100.0, top: 00.0),
             ),
             Row(
               children: [

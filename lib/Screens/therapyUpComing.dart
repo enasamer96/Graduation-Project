@@ -88,7 +88,7 @@ class _therapyUpComingState extends State<therapyUpComing> {
               ],
             ),
             Image(
-              image: AssetImage('images/therapy.jpg'),
+              image: AssetImage('images/th2.png'),
             ),
             SizedBox(
               height: 150.0,
@@ -99,8 +99,8 @@ class _therapyUpComingState extends State<therapyUpComing> {
                 // ignore: deprecated_member_use
                 child: TextButton(
                   onPressed: () {
-                    Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => therapycancele()));
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => therapyprof()));
                   },
                   child: Container(
                     child: Text('Book More',

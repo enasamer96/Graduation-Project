@@ -50,18 +50,11 @@ class _sychoCalendarState extends State<sychoCalendar> {
       body: Column(
         children: [
           SizedBox(
-            height: 20.0,
-          ),
-          Image(
-            image: AssetImage('images/test.jpg'),
-          ),
-          SizedBox(
-            height: 30.0,
+            height: 50.0,
           ),
           Text(
-            'Available on Fridays for free sessions ☺',
-            style: TextStyle(fontSize: 15.0, color: Colors.black),
-          ),
+              'Available to provide service every day from seven to nine o\'clock ☺',
+              style: TextStyle(fontSize: 18.2, color: Colors.black)),
           SizedBox(
             height: 50.0,
           ),

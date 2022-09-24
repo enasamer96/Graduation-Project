@@ -113,7 +113,7 @@ class _ChoicesState extends State<Choices> {
             padding: const EdgeInsets.only(
                 left: 0.0, bottom: 25.0, top: 10.0, right: 25.0),
             child: Text(
-              "Kindly fill the below form ,to evaluate the best therapists ",
+              "Kindly fill out the below form, to evaluate the best therapists ",
               style: TextStyle(fontSize: 20.2, color: Colors.black),
             ),
           ),

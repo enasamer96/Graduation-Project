@@ -26,8 +26,10 @@ class AuthHelper {
     try {
       final response = await http.post(
           Uri.parse('http://localhost:8080/account/login'),
-          body: jsonEncode(
-              {"email": emailController, "password": passwordController}),
+          body: jsonEncode({
+            "email": emailController.toString(),
+            "password": passwordController.toString()
+          }),
           headers: {
             "Content-type": "application/json",
             "Accept": "application/json"
@@ -47,12 +49,12 @@ class AuthHelper {
       final response = await http.post(
           Uri.parse('http://localhost:8080/account/signup'),
           body: jsonEncode({
-            "firstName": firstNameController.text,
-            "lastName": lastNameController.text,
-            "mobileNumber": mobileNumController.text,
-            "email": emailController.text,
-            "password": passwordController.text,
-            "confirmPassword": confirmPasswordController.text,
+            "firstName": firstNameController.text.toString(),
+            "lastName": lastNameController.text.toString(),
+            "mobileNumber": mobileNumController.text.toString(),
+            "email": emailController.text.toString(),
+            "password": passwordController.text.toString(),
+            "confirmPassword": confirmPasswordController.text.toString(),
             "birthdate": birthday.toString(),
             "genderId": selectedGender.toString()
           }),

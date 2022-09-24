@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:test/Screens/choices.dart';
 import 'package:test/Screens/page1.dart';
 import 'package:test/Screens/SignUpPage.dart';
+import 'package:test/animation/m.dart';
 import 'package:test/auth_helper.dart';
 
 // ignore: camel_case_types
@@ -26,7 +27,7 @@ class _loginState extends State<login> {
         //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Image(
-            image: AssetImage('images/logo.PNG'),
+            image: AssetImage('images/looogo.PNG'),
           ),
           Center(
             child: Text(
@@ -62,7 +63,7 @@ class _loginState extends State<login> {
           ),
           Row(
             children: [
-              Checkbox(value: false, onChanged: (value) {}),
+              Checkbox(value: true, onChanged: (value) {}),
               Text('Remember me for future login',
                   style: TextStyle(fontSize: 15.2, color: Colors.black)),
             ],
@@ -75,7 +76,7 @@ class _loginState extends State<login> {
               //AuthHelper.login();
 
               Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => page1()));
+                  context, MaterialPageRoute(builder: (context) => m()));
             },
             child: Image.asset(
               ('images/login.jpeg'),

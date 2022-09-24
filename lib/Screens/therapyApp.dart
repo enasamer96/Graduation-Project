@@ -9,6 +9,8 @@ import 'package:test/Screens/page1.dart';
 import 'package:test/Screens/page3.dart';
 
 import 'package:test/Screens/therapy.dart';
+import 'package:test/Screens/therapyAll.dart';
+import 'package:test/Screens/therapyCalendar.dart';
 
 class therapyapp extends StatefulWidget {
   const therapyapp({Key? key}) : super(key: key);
@@ -42,6 +44,23 @@ class _therapyappState extends State<therapyapp> {
               margin: EdgeInsets.only(
                   left: 8.0, bottom: 8.0, top: 30.0, right: 150),
             ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Row(children: [
+              Padding(
+                padding: const EdgeInsets.only(
+                    left: 55, right: 8, bottom: 0, top: 7),
+                child: Text("Schedule",
+                    style: TextStyle(fontSize: 20, color: Colors.black)),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                    left: 120, right: 8, bottom: 0, top: 8),
+                child: Text("track",
+                    style: TextStyle(fontSize: 20, color: Colors.black)),
+              ),
+            ]),
             Row(
               children: [
                 Expanded(
@@ -50,8 +69,8 @@ class _therapyappState extends State<therapyapp> {
                     // ignore: deprecated_member_use
                     child: TextButton(
                       onPressed: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (context) => therapy()));
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => therapyAll()));
                       },
                       child: Image.asset(
                         ('images/sch.jpeg'),
@@ -67,7 +86,7 @@ class _therapyappState extends State<therapyapp> {
                     child: TextButton(
                       onPressed: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => therapyapp()));
+                            builder: (context) => therapyCalendar()));
                       },
                       child: Image.asset(
                         ('images/track.jpeg'),

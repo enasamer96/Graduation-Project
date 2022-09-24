@@ -44,7 +44,8 @@ class _profState extends State<prof> {
                 height: 1.0,
               ),
               TextFormField(
-                decoration: InputDecoration(hintText: 'Examble@Server.com'),
+                decoration:
+                    InputDecoration(hintText: 'enas.amer1996@gmail.com'),
               ),
               SizedBox(
                 height: 20.0,
@@ -54,7 +55,7 @@ class _profState extends State<prof> {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 0.0, right: 310.0),
-                child: Text('Mobile Number'),
+                child: Text('0785882374'),
               ),
               TextFormField(
                 decoration: InputDecoration(hintText: '+692'),
